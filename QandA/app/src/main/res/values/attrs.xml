@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ResultInflate">
+        <attr name="care_title" format="string" />
+
+    </declare-styleable>
+
+    <!--
+    <declare-styleable name="Themes">
+        <attr name="resultInflateStyle" format="reference" />
+    </declare-styleable>
+    -->
+</resources>

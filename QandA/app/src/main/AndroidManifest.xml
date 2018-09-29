@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.haruka.rescue_aid">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false" />
+
+    <meta-data
+        android:name="com.google.android.gms.version"
+        android:value="@integer/google_play_services_version" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="救&amp;援"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true" > <!-- android:label="@string/app_name" -->
+        <activity android:name=".activities.TitleActivity">
+            //android:theme="@android:style/Theme.NoTitleBar"
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.SymptomCategorizeActivity" />
+        <activity android:name=".activities.InterviewActivity" />
+        <activity android:name=".activities.ResultActivity" />
+        <activity android:name=".activities.ExplainActivity" />
+        <activity android:name=".activities.QRActivity" />
+        <activity android:name=".activities.QRDisplayActivity" />
+        <activity android:name=".activities.CertificationLoadActivity" />
+        <activity android:name=".activities.CertificationEditActivity" />
+
+        <activity android:name=".activities.OptionActivity" />
+        <activity android:name=".activities.LocationActivity" />
+        <activity android:name=".activities.ReadAloudTestActivity" />
+        <activity android:name=".activities.SettingActivity" />
+        <activity android:name=".activities.CareChooseActivity" />
+        <activity android:name=".activities.CertificationActivity" />
+
+        <service android:name=".views.SimpleCallOverlay" ></service>
+        <service android:name=".views.NewCallOverlay" ></service>
+    </application>
+
+</manifest>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+    <id>5</id>
+    <num>3</num>
+    <items>
+        <item>
+            <description>
+                傷病者の、自分に近い方の腕を伸ばしてください。
+            </description>
+            <image>
+                explain/recovery_position/img01.jpg
+            </image>
+            <duration>8000</duration>
+            <button>
+                救急隊が来た
+            </button>
+        </item>
+        <item>
+            <description>
+                傷病者の肩と腰の辺りを持ち、自分側に反転してください。
+            </description>
+            <image>
+                explain/recovery_position/img02.jpg
+            </image>
+            <duration>8000</duration>
+            <button>
+                救急隊が来た
+            </button>
+        </item>
+        <item>
+            <description>
+                画像のようにして、気道を確保してください。
+            </description>
+            <image>
+                explain/recovery_position/img02.jpg
+            </image>
+            <duration>8000</duration>
+            <button>
+                救急隊が来た
+            </button>
+        </item>
+    </items>
+    <metronome>0</metronome> <!-- メトロノームが必要なら1, 不要なら0 -->
+</root>

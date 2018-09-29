@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_home"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="ホーム" />
+
+        <item
+            android:id="@+id/menu_mypage"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="マイページ" />
+
+        <item
+            android:id="@+id/menu_youtube"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Youtube" />
+    </group>
+    <item
+        android:title="その他">
+        <menu android:checkableBehavior="single">
+            x
+            <item
+                android:id="@+id/menu_app_description"
+                android:title="このアプリについて" />
+            <item
+                android:id="@+id/menu_setting"
+                android:title="設定" />
+        </menu>
+    </item>
+</menu>

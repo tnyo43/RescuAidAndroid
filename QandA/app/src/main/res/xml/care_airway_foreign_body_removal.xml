@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+    <id>4</id>
+
+    <notice>
+        <title>
+            気道異物除去（背部叩打法）
+        </title>
+        <description>
+            結果表示画面の説明文
+        </description>
+    </notice>
+
+
+    <num>4</num>
+    <items>
+        <item>
+            <description>
+                傷病者が寝ている場合、救助者の方に横に向けてください。
+            </description>
+            <image>
+                explain/airway_removal/img1.jpg
+            </image>
+            <duration>10000</duration>
+            <button>
+                次の処置へ
+            </button>
+        </item>
+        <item>
+            <description>
+                気道を確保できるように下 あごを確保し、足を傷病者の胸に当てて支えてください。
+            </description>
+            <image>
+                explain/airway_removal/img2.jpg
+            </image>
+            <duration>10000</duration>
+            <button>
+                次の処置へ
+            </button>
+        </item>
+        <item>
+            <description>
+                傷病者が寝ていない場合、前傾姿勢にして、下あごを前に突き出すようにしてください。
+            </description>
+            <image>
+                explain/airway_removal/img3.jpg
+            </image>
+            <duration>10000</duration>
+            <button>
+                次の処置へ
+            </button>
+        </item>
+        <item>
+            <description>
+                肩甲骨の間を手の付け根で、頭の方に向かって強く叩いてください。
+            </description>
+            <image>
+                explain/airway_removal/img4.jpg
+            </image>
+            <duration>10000</duration>
+            <button>
+                処置終了
+            </button>
+        </item>
+    </items>
+    <metronome>0</metronome>
+
+    <quote>http://www.119-sys.jp/each-fire-department/sakura-fire%20department/cpr/ibutu/ibutuzyokyo1.html</quote>
+</root>

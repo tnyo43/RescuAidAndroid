@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_content_result"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="hogehoge"
+        android:id="@+id/textview_notice_result"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+    <TextView
+        android:text="以下の応急手当を行ってください。\nボタンを押すとガイドが始まります"
+        android:id="@+id/textview_notice_result1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:id="@+id/linearlayout_result"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:background="@drawable/frame_listview1">
+
+        <com.example.haruka.rescue_aid.views.CareListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:id="@+id/listview_care">
+        </com.example.haruka.rescue_aid.views.CareListView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:background="@drawable/button_qr_long"
+            android:id="@+id/btn_result_qr_display"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:background="@drawable/button_certification_long"
+            android:id="@+id/btn_result_certification"/>
+
+    </LinearLayout>
+    <!--
+    <Button
+        android:layout_weight="1"
+        android:textColor="@color/start"
+        android:background="@color/start_back"
+        android:id="@+id/btn_start_care"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true" >
+
+    </Button>
+    -->
+</LinearLayout>

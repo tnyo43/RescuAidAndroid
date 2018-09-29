@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+    <id>6</id> 
+
+    <notice>
+        <title>
+            骨折の応急手当て
+        </title>
+        <description>
+            骨折の応急手当
+        </description>
+    </notice>
+
+
+    <num>5</num>
+    <items>
+        <item>
+            <description>
+                患部が腫れていれば、冷やしながら手当を行ってください。
+            </description>
+            <image>
+                explain/fracture/img1.jpg
+            </image>
+            <duration>10000</duration>
+            <button>
+                処置Aが終わった
+            </button>
+        </item>
+        <item>
+            <description>
+                患部を布で覆ってください。
+            </description>
+            <image>
+                explain/fracture/img2.jpg
+            </image>
+            <duration>10000</duration>
+            <button>
+                処置の続き
+            </button>
+        </item>
+        <item>
+            <description>
+                患部を添え木などで固定してください。
+            </description>
+            <image>
+                explain/fracture/img3.jpg
+            </image>
+            <duration>10000</duration>
+            <button>
+                処置Aが終わった
+            </button>
+        </item>
+        <item>
+            <description>
+                痛みのない程度に、患部を上げてください。
+            </description>
+            <image>
+                explain/fracture/img4.jpg
+            </image>
+            <duration>10000</duration>
+            <button>
+                処置の続き
+            </button>
+        </item>
+        <item>
+            <description>
+                手の場合は、吊り上げるか自分で持つようにしてください。
+            </description>
+            <image>
+                explain/fracture/img5.jpg
+            </image>
+            <duration>10000</duration>
+            <button>
+                処置の続き
+            </button>
+        </item>
+    </items>
+    <metronome>0</metronome>
+    
+    <quote>http://kamisyo.jp/sub05/sub05_kotusetu.htm の固定方法の例</quote> <!-- アプリケーションで使わないので日本語でよい　本の名前、誰に聞いたか（青木さんとか）-->
+</root>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+    <id>2</id>
+
+
+    <notice>
+        <title>
+            胸骨圧迫をしてください
+        </title>
+        <notice_description>
+            胸骨圧迫をしてください。ガイド音に合わせて行ってください。
+        </notice_description>
+    </notice>
+
+    <num>3</num>
+    <items>
+        <item>
+            <description>乳頭と乳頭の間に手の付け根を置いてください。</description>
+            <image>
+                explain/chest_compression/i000.jpg
+            </image>
+            <duration>10000</duration>
+            <button>
+                AEDが到着した
+            </button>
+        </item>
+        <item>
+            <description>胸が5cm程度沈むよう、ひじを伸ばして垂直に体重をかけ、テンポに合わせて強く胸を押してください。</description>
+            <image>
+                explain/chest_compression/i001.jpg
+            </image>
+            <duration>15000</duration>
+            <button>
+                AEDが到着した
+            </button>
+        </item>
+	    <item>
+            <description>圧迫と圧迫の間に胸に力をかけないようにしてください。</description>
+            <image>
+                explain/chest_compression/i001.jpg
+            </image>
+            <duration>10000</duration>
+            <button>
+                AEDが到着した
+            </button>
+        </item>
+    </items>
+    <metronome>1</metronome>
+
+    <sub>care_aed</sub>
+</root>

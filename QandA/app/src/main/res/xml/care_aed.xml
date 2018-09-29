@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+    <id>1</id>
+
+    <notice>
+        <title>
+            AEDを使用してください
+        </title>
+        <notice_description>
+            AEDを使用してください。AEDの場所はAEDマップを参考にしてください。
+        </notice_description>
+    </notice>
+
+
+    <num>1</num>
+    <items>
+        <item>
+            <description>
+                A E Dの音声案内に従って処置をしてください。終了後は胸骨圧迫を再開してください。
+            </description>
+            <image>
+                explain/AED/AED.jpg
+            </image>
+            <duration>99999999</duration>
+            <button>
+                処置を再開する
+            </button>
+            <button2>
+                救急隊が来た
+脈が戻った
+            </button2>
+        </item>
+    </items>
+    <metronome>0</metronome>
+</root>

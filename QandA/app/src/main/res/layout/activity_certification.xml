@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.CertificationActivity"
+    android:orientation="vertical">
+
+    <!--<ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+    -->
+    <view
+        android:id="@+id/drawing_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        class="com.example.haruka.rescue_aid.views.CirtificationView"
+        android:layout_weight="6"/>
+
+    <!-- ImageView
+        android:id="@+id/image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/flog" / -->
+
+    <!-- /ScrollView -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="@string/gotoQR"
+            android:background="@drawable/gray_button"
+            android:id="@+id/btn_result_qr_display"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="@string/gotoCertification"
+            android:background="@drawable/gray_button"
+            android:id="@+id/btn_result_certification"/>
+
+    </LinearLayout>
+</LinearLayout>

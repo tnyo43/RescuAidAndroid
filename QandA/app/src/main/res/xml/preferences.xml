@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:title="Data 1"
+        android:key="data1"
+        android:summary="This is data1."/>
+    <EditTextPreference
+        android:title="Data 2"
+        android:key="data2"
+        android:summary="This is data2."/>
+</PreferenceScreen>

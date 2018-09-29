@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+    <id>0</id> <!-- 通し番号（いらないかも）-->
+
+    <notice>
+        <title>
+            タイトル
+        </title>
+        <notice_description>
+            結果表示画面の説明文
+        </notice_description>
+    </notice>
+
+
+    <num>1</num> <!-- 表示する説明文の数 itemタグの数と同じ-->
+    <items> <!-- item集合 -->
+        <item> <!-- 一つの処置 -->
+            <description> <!-- 表示する説明文 -->
+                処置を行います
+            </description>
+            <image> <!-- 表示する画像のパス -->
+                explain/AED/i000/img.png
+            </image>
+            <duration>2000</duration> <!-- 複数のitemがあるとき、このitemの表示時間(ms) -->
+            <button> <!-- この説明文が表示されているときのボタンの文章-->
+                処置Aが終わった
+            </button>
+        </item>
+        <item>
+            <description>
+                処置を行います
+            </description>
+            <image>
+                explain/AED/i000/img.png
+            </image>
+            <duration>5000</duration>
+            <button>
+                夏休みが終わった
+            </button>
+        </item>
+    </items>
+    <metronome>0</metronome> <!-- メトロノームが必要なら1, 不要なら0 -->
+</root>

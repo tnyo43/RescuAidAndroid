@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_call_119"
+        android:title="119番通報"
+        app:showAsAction="always"/>
+    <!--
+    <item
+        android:id="@+id/menu_title_chest_compression"
+        android:title="胸骨圧迫"
+        app:showAsAction="ifRoom"/>
+        -->
+    <item
+        android:id="@+id/menu_title_QR_display"
+        android:title="QRコード表示"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu_title_QR"
+        android:title="QRコード読み取り"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_title_care_list"
+        android:title="応急手当一覧"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_title_AED"
+        android:title="AEDマップ表示"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_title_title"
+        android:title="タイトル画面に戻る"
+        app:showAsAction="never" />
+
+</menu>
